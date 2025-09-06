@@ -813,3 +813,74 @@ i{
 }
   /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
   
+/* شاشات الموبايل أقل من 768px */
+@media (max-width: 768px) {
+  .divheader {
+    height: auto;
+  }
+
+  .logo {
+    margin-left: 20px;
+    width: 60px;
+    height: 30px;
+  }
+
+  .ulheader {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .ulheader li {
+    float: none;
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin: 20px;
+  }
+
+  .BTN {
+    position: relative;
+    left: 0;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+  }
+
+  .containersec2 {
+    width: 95%;
+    height: auto;
+  }
+
+  .porsche, .GClass, .BMW {
+    width: 100%;
+    margin: 10px 0;
+    float: none;
+  }
+
+  .cont {
+    width: 100%;
+    height: auto;
+  }
+
+  .img2, .img3, .img4, .img5, .img6, .img7 {
+    width: 90%;
+    height: 200px;
+    margin: 10px auto;
+    float: none;
+  }
+
+  .contchoose {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  .imgsec5 {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+}
